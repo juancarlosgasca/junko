@@ -1,7 +1,11 @@
 /* HEADER */
-
-.page-header {
+/*header{
     background-color: var(--dark-bg-solid);
+    padding: var(--spacing-36);
+}
+
+/*.page-header {
+   /* background-color: var(--dark-bg-solid);
     padding: var(--spacing-36);
 }
 
@@ -64,4 +68,19 @@
 
 .submenu__link:hover {
     background-color: var(--primary-900);
+} */
+
+header{
+    background-color: var(--dark-bg-solid);
+    padding: var(--spacing-36);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    width: 300px;
 }

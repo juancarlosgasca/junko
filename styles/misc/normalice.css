@@ -11,6 +11,7 @@ html {
     font-family: var(--base-font);
     font-size: 62.5%;
     color: var(--dark-solid);
+    display: block;
 }
 
 a {
